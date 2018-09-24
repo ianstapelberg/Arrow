@@ -1,0 +1,15 @@
+{
+  "name": "arrow-desktop",
+  "version": "1.0.0",
+  "description": "Arrow Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ian Stapelberg",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^3.0.0",
+    "jquery": "^3.3.1"
+  }
+}
