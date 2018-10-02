@@ -9,7 +9,8 @@ let mainWindow;
 // Listen for app to be ready
 app.on('ready', function(){
     // Create new window
-    mainWindow = new BrowserWindow({frame: false});
+    mainWindow = new BrowserWindow({
+        frame: false});
     // Load html into window
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'mainWindow.html'),
