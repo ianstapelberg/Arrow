@@ -10,7 +10,12 @@ let mainWindow;
 app.on('ready', function(){
     // Create new window
     mainWindow = new BrowserWindow({
-        frame: false});
+        frame: false,
+        'height': 700,
+        'width': 1100,
+        'minHeight': 300,
+        'minWidth': 300
+    });
     // Load html into window
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'mainWindow.html'),

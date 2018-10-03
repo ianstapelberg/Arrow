@@ -8,38 +8,150 @@
     <div id = "top-sec">
         <div id="titlebar"></div>
         <div>
-            <a id="closelinkitem" ><span id="close"><img id="closeico" src="./assets/Close.png"></img></span></a>
+            <a id="closelinkitem" >
+                <span id="close">
+                    <img id="closeico" src="./assets/Close.png"></img>
+                </span>
+            </a>
         </div>
         <div>
-            <a id="collinkitem" ><span id="max-col"><img id="maxico" src="./assets/Max.png"></img>
-            <img id="colico" class="hidden" src="./assets/Collapse.png"></img></span></a>
+            <a id="collinkitem" >
+                <span id="max-col">
+                    <img id="maxico" src="./assets/Max.png"></img>
+                    <img id="colico" class="hidden" src="./assets/Collapse.png"></img>
+                </span>
+            </a>
         </div>
         <div>
-            <a id="minlinkitem" ><span id="min"><img id="minico" src="./assets/Min.png"></img></span></a>
+            <a id="minlinkitem" >
+                <span id="min">
+                    <img id="minico" src="./assets/Min.png"></img>
+                </span>
+            </a>
         </div>
     </div>
 
-    <div id="topbar">Welcome Ian!</div>
-    
-    <!-- <div id="sidebar">
+    <div id="top-items">
+        <div id="topbar">
+            <span id="welcometxt">Welcome Ian!</span>
+        </div>
+        <div id="col-but">
+            <a href="#">
+                <img id="colmenico" src="./assets/Col-menu.png"></img>
+            </a>
+        </div>
+        <div id="ex-but">
+            <a href="#">
+                <img id="exico" src="./assets/Ex-menu.png"></img>
+            </a>
+        </div>
+        <div id="home-but">
+            <a href="#">
+                <img id="homeico" src="./assets/Home.png"></img>
+            </a>
+        </div>
+    </div>
+
+    <div id="sidebar-back"></div>
+
+    <div id="sidebar">
         <nav class="main-nav">
             <ul class="main-nav-ul">
-                <li class="main-butt" id="has-sub"><a href="#"><span id="msg-ico" item-width="20" item-height="15">
-                    <img src="./assets/Messages.png" width="24" height="15"></img></span><span id="main-txt">Messages</span></a>
+                <li class="has-sub">
+                    <a href="#" class="main-butt">
+                        <span id="men-ico">
+                            <img src="./assets/Messages.png" id="msg-ico"></img>
+                        </span>
+                        <span id="main-txt">Messages</span>
+                    </a>
                     <ul id="dropdown">
-                        <li><a href="#">Compose</a></li>
-                        <li><a href="#">Recent</a></li>
+                        <li>
+                            <a href="#" id="drop-butt"><span id="drop-txt">Compose</span></a>
+                        </li>
+                        <li>
+                            <a href="#" id="drop-butt"><span id="drop-txt">Recent</span></a>
+                        </li>
                     </ul>
                 </li>
-                <li class="main-butt"><a href="#"><span id="file-ico" item-width="20" item-height="15">
-                    <img src="./assets/File.png" width="15" height="20"></img></span><span id="main-txt">Files</span></a></li>
-                <li class="main-butt"><a href="#">Jobs</a></li>
-                <li class="main-butt"><a href="#">Method Of Payment</a></li>
-                <li class="main-butt"><a href="#">Personal Information</a></li>
-                <li class="main-butt"><a href="#">Settings</a></li>
+                <li class="has-sub">
+                    <a href="#" class="main-butt">
+                        <span id="men-ico">
+                            <img src="./assets/File.png" id="file-ico"></img>
+                        </span>
+                        <span id="main-txt">Files</span>
+                    </a>
+                    <ul id="dropdown">
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Add</span></a>
+                            </li>
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Local</span></a>
+                            </li>
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Cloud</span></a>
+                            </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="main-butt">
+                        <span id="men-ico">
+                            <img src="./assets/Jobs.png" id="job-ico"></img>
+                        </span>
+                        <span id="main-txt">Jobs</span>
+                    </a>
+                    <ul id="dropdown">
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Active</span></a>
+                            </li>
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Past</span></a>
+                            </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="main-butt">
+                        <span id="men-ico">
+                            <img src="./assets/Pay.png" id="pay-ico"></img>
+                        </span>
+                        <span id="main-txt">Payment Method</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="main-butt">
+                        <span id="men-ico">
+                            <img src="./assets/Info.png" id="info-ico"></img>
+                        </span>
+                        <span id="main-txt">Personal Information</span>
+                    </a>
+                    <ul id="dropdown">
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Update</span></a>
+                            </li>
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Change Password</span></a>
+                            </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="main-butt">
+                        <span id="men-ico">
+                            <img src="./assets/Set.png" id="set-ico"></img>
+                        </span>
+                        <span id="main-txt">Settings</span>
+                    </a>
+                    <ul id="dropdown">
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">User</span></a>
+                            </li>
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Extensions</span></a>
+                            </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-    </div> -->
+    </div>
+
     <!-- <div id="side-menu" class="side-nav">
         <a href="#" class="btn-close">&times;</a>
         <a href="#">Messages</a>
