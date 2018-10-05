@@ -216,6 +216,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
+    background: rgba(73, 71, 95, 0.3);
 }
     
 #drop-butt:hover {
@@ -237,16 +238,88 @@ body {
     background-image: linear-gradient(rgba(104, 110, 157, 1.00), rgba(33, 29, 78, 1.00));
 }
 
-.has-sub ul {
+#msgdropdown {
     display: none;
 }
 
-.has-sub.active ul {
+/* #msg-men.active > #msgdropdown {
     display: block;
+} */
+
+#msg-men.active > .main-butt {
+    background: rgba(33, 29, 78, 0.5);
+    transition: background-color 0.12s ease-in;
+    transition: background-color 0.12s ease-out;
 }
 
-.has-sub.active > .main-butt {
+#filedropdown {
+    display: none;
+}
+
+/* #file-men.active ul {
+    display: block;
+} */
+
+#file-men.active > .main-butt {
     background: rgba(33, 29, 78, 0.5);
+    transition: background-color 0.12s ease-in;
+    transition: background-color 0.12s ease-out;
+}
+
+#jobdropdown {
+    display: none;
+}
+
+/* #job-men.active ul {
+    display: block;
+} */
+
+#job-men.active > .main-butt {
+    background: rgba(33, 29, 78, 0.5);
+    transition: background-color 0.12s ease-in;
+    transition: background-color 0.12s ease-out;
+}
+
+#paydropdown {
+    display: none;
+}
+
+/* #pay-men.active ul {
+    display: block;
+} */
+
+#pay-men.active > .main-butt {
+    background: rgba(33, 29, 78, 0.5);
+    transition: background-color 0.12s ease-in;
+    transition: background-color 0.12s ease-out;
+}
+
+#infodropdown {
+    display: none;
+}
+
+/* #info-men.active ul {
+    display: block;
+} */
+
+#info-men.active > .main-butt {
+    background: rgba(33, 29, 78, 0.5);
+    transition: background-color 0.12s ease-in;
+    transition: background-color 0.12s ease-out;
+}
+
+#setdropdown {
+    display: none;
+}
+
+/* #setdropdown {
+    display: block;
+} */
+
+#set-men.active > .main-butt {
+    background: rgba(33, 29, 78, 0.5);
+    transition: background-color 0.12s ease-in;
+    transition: background-color 0.12s ease-out;
 }
 
 #men-ico {

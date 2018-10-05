@@ -57,14 +57,14 @@
     <div id="sidebar">
         <nav class="main-nav">
             <ul class="main-nav-ul">
-                <li class="has-sub">
+                <li class="has-sub" id="msg-men">
                     <a href="#" class="main-butt">
                         <span id="men-ico">
                             <img src="./assets/Messages.png" id="msg-ico"></img>
                         </span>
                         <span id="main-txt">Messages</span>
                     </a>
-                    <ul id="dropdown">
+                    <ul id="msgdropdown">
                         <li>
                             <a href="#" id="drop-butt"><span id="drop-txt">Compose</span></a>
                         </li>
@@ -73,14 +73,14 @@
                         </li>
                     </ul>
                 </li>
-                <li class="has-sub">
+                <li class="has-sub" id="file-men">
                     <a href="#" class="main-butt">
                         <span id="men-ico">
                             <img src="./assets/File.png" id="file-ico"></img>
                         </span>
                         <span id="main-txt">Files</span>
                     </a>
-                    <ul id="dropdown">
+                    <ul id="filedropdown">
                             <li>
                                 <a href="#" id="drop-butt"><span id="drop-txt">Add</span></a>
                             </li>
@@ -92,14 +92,14 @@
                             </li>
                     </ul>
                 </li>
-                <li>
+                <li class="has-sub" id="job-men">
                     <a href="#" class="main-butt">
                         <span id="men-ico">
                             <img src="./assets/Jobs.png" id="job-ico"></img>
                         </span>
                         <span id="main-txt">Jobs</span>
                     </a>
-                    <ul id="dropdown">
+                    <ul id="jobdropdown">
                             <li>
                                 <a href="#" id="drop-butt"><span id="drop-txt">Active</span></a>
                             </li>
@@ -108,22 +108,27 @@
                             </li>
                     </ul>
                 </li>
-                <li>
+                <li id="pay-men">
                     <a href="#" class="main-butt">
                         <span id="men-ico">
                             <img src="./assets/Pay.png" id="pay-ico"></img>
                         </span>
                         <span id="main-txt">Payment Method</span>
                     </a>
+                    <ul id="paydropdown">
+                            <li>
+                                <a href="#" id="drop-butt"><span id="drop-txt">Change</span></a>
+                            </li>
+                    </ul>
                 </li>
-                <li>
+                <li id="info-men">
                     <a href="#" class="main-butt">
                         <span id="men-ico">
                             <img src="./assets/Info.png" id="info-ico"></img>
                         </span>
                         <span id="main-txt">Personal Information</span>
                     </a>
-                    <ul id="dropdown">
+                    <ul id="infodropdown">
                             <li>
                                 <a href="#" id="drop-butt"><span id="drop-txt">Update</span></a>
                             </li>
@@ -132,14 +137,14 @@
                             </li>
                     </ul>
                 </li>
-                <li>
+                <li id="set-men">
                     <a href="#" class="main-butt">
                         <span id="men-ico">
                             <img src="./assets/Set.png" id="set-ico"></img>
                         </span>
                         <span id="main-txt">Settings</span>
                     </a>
-                    <ul id="dropdown">
+                    <ul id="setdropdown">
                             <li>
                                 <a href="#" id="drop-butt"><span id="drop-txt">User</span></a>
                             </li>
